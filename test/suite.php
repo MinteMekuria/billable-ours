@@ -9,7 +9,7 @@ require_once 'simpletest/autorun.php';
 class AllTests extends TestSuite {
     function AllTests() {
         $this->TestSuite('Run All Billable Our$ tests');
-        $this->addFile('login_form_test.php');
+        $this->addFile('https://github.com/MinteMekuria/billable-ours/blob/main/hours_form_test.php');
     }
 }
 ?>
